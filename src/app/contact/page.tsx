@@ -32,7 +32,7 @@ function ContactPage() {
       style={{ viewTransitionName: "career" }}
     >
       <div className="pt-15 mx-2">
-        <h1 className="mb-4 text-2xl font-bold tracking-tight drop-shadow-lg md:text-4xl text-slate-700 dark:text-slate-300 max-w-4xl">
+        <h1 className="mb-4 text-2xl font-bold tracking-tight drop-shadow-lg md:text-4xl text-slate-300 max-w-4xl">
           Contact
         </h1>
         <div className="mt-6 text-zinc-400 max-w-2xl">
@@ -48,7 +48,7 @@ function ContactPage() {
             className="p-4 relative flex flex-col items-center gap-4 duration-700 group md:gap-8 md:py-24  md:pb-48"
           >
             <span
-              className="absolute w-px h-2/3 bg-gradient-to-b from-zinc-500 via-zinc-500/50 to-transparent"
+              className="absolute w-px h-2/3 bg-linear-to-b from-zinc-500 via-zinc-500/50 to-transparent"
               aria-hidden="true"
             />
             <span className="relative z-10 flex items-center justify-center w-12 h-12 text-sm duration-1000 border rounded-full text-zinc-200 group-hover:text-white group-hover:bg-zinc-900 border-zinc-500 bg-zinc-900 group-hover:border-zinc-200 drop-shadow-orange">

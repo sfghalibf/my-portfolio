@@ -78,7 +78,7 @@ const FloatingDockMobile = ({
                 <a
                   href={item.href}
                   key={item.title}
-                  className="flex h-11 w-11 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-900"
+                  className="flex h-11 w-11 items-center justify-center rounded-full bg-neutral-900"
                 >
                   <div className="h-5 w-5">{item.icon}</div>
                 </a>
@@ -89,9 +89,9 @@ const FloatingDockMobile = ({
       </AnimatePresence>
       <button
         onClick={() => setOpen(!open)}
-        className="flex h-11 w-11 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-800"
+        className="flex h-11 w-11 items-center justify-center rounded-full bg-neutral-800"
       >
-        <IconLayoutNavbarCollapse className="h-5 w-5 text-neutral-500 dark:text-neutral-400" />
+        <IconLayoutNavbarCollapse className="h-5 w-5 text-neutral-400" />
       </button>
     </div>
   );
@@ -122,7 +122,7 @@ const FloatingDockDesktop = ({
       }}
       onMouseLeave={() => mouseX.set(Infinity)}
       className={cn(
-        "z-20 mx-auto hidden h-16 items-end gap-4 rounded-2xl bg-gray-50 px-4 pb-3 sm:flex dark:bg-neutral-900",
+        "z-20 mx-auto hidden h-16 items-end gap-4 rounded-2xl bg-neutral-900 px-4 pb-3 sm:flex",
         className,
       )}
     >
@@ -205,7 +205,7 @@ function IconContainer({
           "relative flex aspect-square items-center justify-center rounded-full transition-colors",
           isActive
             ? "bg-white/25 text-white backdrop-blur-lg border border-white/30 shadow-[0_0_20px_rgba(255,255,255,0.15)]"
-            : "bg-gray-200 dark:bg-neutral-800",
+            : "bg-neutral-800",
         )}
       >
         <AnimatePresence>
@@ -214,7 +214,7 @@ function IconContainer({
               initial={{ opacity: 0, y: 10, x: "-50%" }}
               animate={{ opacity: 1, y: 0, x: "-50%" }}
               exit={{ opacity: 0, y: 2, x: "-50%" }}
-              className="absolute -top-8 left-1/2 w-fit rounded-md border border-gray-200 bg-gray-100 px-2 py-0.5 text-xs whitespace-pre text-neutral-700 dark:border-neutral-900 dark:bg-neutral-800 dark:text-white"
+              className="absolute -top-8 left-1/2 w-fit rounded-md border border-neutral-900 bg-neutral-800 px-2 py-0.5 text-xs whitespace-pre text-white"
             >
               {title}
             </motion.div>

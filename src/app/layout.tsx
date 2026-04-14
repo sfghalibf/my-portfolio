@@ -28,38 +28,30 @@ export default function RootLayout({
   const links = [
     {
       title: "Home",
-      icon: (
-        <HomeIcon className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
+      icon: <HomeIcon className="h-full w-full text-neutral-300" />,
       href: "/",
     },
 
     {
       title: "Project",
-      icon: (
-        <IconLayoutGrid className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
+      icon: <IconLayoutGrid className="h-full w-full text-neutral-300" />,
       href: "/project",
     },
     {
       title: "Career",
-      icon: (
-        <BriefcaseBusiness className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
+      icon: <BriefcaseBusiness className="h-full w-full text-neutral-300" />,
       href: "/career",
     },
     // {
     //   title: "About",
     //   icon: (
-    //     <User className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    //     <User className="h-full w-full text-neutral-300" />
     //   ),
     //   href: "/about",
     // },
     {
       title: "Contact",
-      icon: (
-        <MailIcon className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
+      icon: <MailIcon className="h-full w-full text-neutral-300" />,
       href: "/contact",
     },
   ];

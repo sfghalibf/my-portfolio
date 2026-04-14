@@ -23,7 +23,7 @@ export default async function ProjectDetail({
         variant={project?.isMobileApp ? "mobile" : "desktop"}
       />
       {/* dark overlay */}
-      <div className="pointer-events-none fixed inset-0 z-10 bg-black/50 dark:bg-black/65" />
+      <div className="pointer-events-none fixed inset-0 z-10 bg-black/65" />
       {/* content */}
       <div className="relative z-20 mx-auto max-w-6xl px-8 sm:px-10">
         <BackButton />

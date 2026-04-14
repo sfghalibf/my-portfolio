@@ -40,7 +40,7 @@ export const HoverEffect = ({
           {hoveredIndex === idx && (
             <motion.span
               layoutId="hoverBackground"
-              className="absolute inset-0 h-full w-full rounded-3xl bg-neutral-200 dark:bg-slate-800/80"
+              className="absolute inset-0 h-full w-full rounded-3xl bg-slate-800/80"
               transition={{ type: "spring", stiffness: 300, damping: 25 }}
             />
           )}
@@ -86,7 +86,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full p-4 overflow-hidden bg-neutral-950 border border-transparent dark:border-white/20 group-hover:border-slate-700 relative z-20",
+        "rounded-2xl h-full w-full p-4 overflow-hidden bg-neutral-950 border border-white/20 group-hover:border-slate-700 relative z-20",
         className,
       )}
     >

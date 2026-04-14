@@ -8,7 +8,7 @@ export default function MyProject() {
       style={{ viewTransitionName: "project" }}
     >
       <div className="pt-15 pb-2 mx-2">
-        <h1 className="mb-4 text-2xl font-bold tracking-tight drop-shadow-lg md:text-4xl text-slate-700 dark:text-slate-300 max-w-4xl">
+        <h1 className="mb-4 text-2xl font-bold tracking-tight drop-shadow-lg md:text-4xl text-slate-300 max-w-4xl">
           Projects
         </h1>
         <div className="mt-6 text-zinc-400 max-w-2xl">
